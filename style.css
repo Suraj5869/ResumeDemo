@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.main{
+    display: grid;
+}
+.heading{
+    grid-row: auto;
+}
+#title{
+    float: right;
+    /* margin: 2rem 45rem 0rem 0rem; */
+    width: 84%;
+    padding: 2rem;
+}
+#image{
+    height: 20vh;
+    width: 9vw;
+    margin: 2rem ;
+    float: left;
+}
+#title h1{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.content{
+    margin: 2rem 2rem;
+}
